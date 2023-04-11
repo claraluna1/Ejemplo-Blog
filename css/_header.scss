@@ -1,0 +1,67 @@
+header {
+    .logo{
+        padding-top: 1.25em; //20px porque tamaño de fuente es 16
+        padding-bottom: 1.25em; //20px
+
+        a {
+            display: inline-block;
+        }
+    }
+
+    .redes-sociales {
+        text-align: right;
+        line-height: 5em;
+
+        a {
+            border-radius: 50%;
+            width: 2.5em; //40px
+            height: 2.5em;
+            text-align: center;
+            line-height: 2.5em;
+            display: inline-block;
+            color: white;
+            margin-left: 1.25em; //20px
+
+            &.youtube {
+                background: #e62117;
+            }
+            &.twitter {
+                background: #08a0e9;
+            }
+            &.facebook {
+                background: #3b5998;
+            }
+        }
+    }
+
+    .menu {
+        background: $azul_prim;
+        margin-bottom: 1.25em;
+
+        ul {
+            list-style: none;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+
+            li {
+                float: left;
+                display: inline-block;
+
+                a{
+                    color:black;
+                    display: inline-block;
+                    padding: 1em 1.25em;
+                    font-size: 0.87em;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: none;
+                        background: $azul_secun;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

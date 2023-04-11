@@ -1,0 +1,36 @@
+$azul_prim: #d1eaf9;
+$azul_secun: #14a3f0;
+$morado_prim: #d3bcf6;
+$morado_secun: #9d68ee;
+$verde: #d8f79a;
+
+$font-family1: 'Kanit', sans-serif;
+$font-family2: 'Tilt Neon', arial;
+$font-size: 16px;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    font-size: $font-size;
+    font-family: $font-family1;
+}
+
+.ad {
+    margin-bottom: 1.25em; //seria 1.25 veces 16px, es decir, 20px 
+    text-align: center;
+}
+
+a{
+    color: $azul_secun;
+}
+
+@import "header";
+@import "main";
+@import "sidebar";
+@import "footer";
+@import "mediaqueries";
